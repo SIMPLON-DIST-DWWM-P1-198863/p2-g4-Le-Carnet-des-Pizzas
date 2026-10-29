@@ -1,26 +1,10 @@
-@media screen and (min-width: 48rem) {
-  body {
-    font-size: 16px;
-  }
-}
-
-:root {
-  font-family: Montserrat, sans-serif;
-  font-size: 1rem;
-}
-
 .footer {
-  background-color: #cd212a;
-  color: #ffffff;
-}
-
-.logo {
-  margin-left: 2vw;
-}
-
-.copyright {
-  margin-right: 2vw;
   display: flex;
+  background-color: #cd212a;
+  color: black;
   justify-content: space-between;
   align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Montserrat, sans-serif;
 }
