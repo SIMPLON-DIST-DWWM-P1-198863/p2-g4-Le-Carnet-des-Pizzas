@@ -1,13 +1,12 @@
-type Props = {
-    imgSrc:string;
-    copyright:string;
-};
+import "./footer.css";
 
-export const Footer= ({imgSrc, copyright,}: Props) => {
-    return (
-        <>
-            <img className="logo" src={imgSrc} alt={"logo"}/>
-            <p className="copyright">{copyright}</p>
-        </>
-    )
+export const Footer = () => {
+  return (
+    <div className="footer">
+      <p className="copyright">
+        <img className="logo" src="/logo.png" alt="logo" /> © 2026 - Le Carnet
+        des Pizzas
+      </p>
+    </div>
+  );
 };
