@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.62rem 0.93rem;
+    background-color: #cd212a;
+    font-family: 'Montserrat' sans-serif;
+    /*j'ai mis Montserrat sans l'avoir mis dans mon index.html
+    car Loïc l'a déjà mis dans le sien,
+    donc lorsque nos fichiers seront liés, il s'affichera*/
+}
+
+/*titre du header*/
+
+header h1 {
+    font-size: 1.43rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 3.75rem;
+    height: auto;
+    object-fit: contain;
+}
+
+/*Bouton favoris*/
+
+.lienfavoris {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2.18rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
