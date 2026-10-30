@@ -1,0 +1,58 @@
+body {
+    background-color: green;
+}
+/* Ceci gère la section description de la HomePage */
+.hero-description {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0rem;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    list-style: none;
+    border: solid;
+    font-weight: bold;
+}
+/* Ceci gère la section Sauce Tomate de la HomePage */
+.hero-saucetomate {
+    background-color: red;
+}
+/* Ceci gère la section Crème fraîche de la HomePage */
+.hero-cremefraiche {
+    background-color: white;
+}
+/* Ceci gère les sections Viande/Poisson/Végetarien de la HomePage */
+.hero-categorie {
+    background-color: white;
+}
+/* Ceci gère les sections Pizzas de la HomePage */
+.hero-pizzas {
+    background-color: white;
+    border: none;
+    display: grid;
+    grid-template-areas: "a b" "c d";
+    justify-content: space-around;
+    margin: 0rem;
+    padding: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width : 48rem) {
+    /* Ceci gère les sections Pizzas de la HomePage */
+    .hero-pizzas {
+        grid-template-areas: "a b c d" "e f g h";
+    }
+}
