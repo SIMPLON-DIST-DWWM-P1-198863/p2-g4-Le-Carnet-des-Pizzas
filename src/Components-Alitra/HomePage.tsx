@@ -58,7 +58,7 @@ export default function HomePage () {
                                 Végétarien
                                 <ul>
                                     <li className='hero-pizzas'>
-
+                                        <PizzaGrid />
                                     </li>
                                 </ul>
                             </li>
