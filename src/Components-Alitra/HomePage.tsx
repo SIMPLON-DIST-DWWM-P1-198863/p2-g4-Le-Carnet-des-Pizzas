@@ -4,7 +4,7 @@ import PizzaGrid from './Pizzas';'./Pizzas.tsx';
 export default function HomePage () {
 
     return <div>
-                <p className='hero-description'>Bienvenu dans Le Carnet des Pizzas<br />le temple ultime de la pizza et de tout son univers</p>
+                <p className='hero-description'>Bienvenue dans Le Carnet des Pizzas<br />le temple ultime de la pizza et de tout son univers</p>
                 <ul>
                     <li className='hero-saucetomate'>
                         Sauce Tomate
