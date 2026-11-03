@@ -2,7 +2,7 @@ body {
   background-color: green;
 }
 /* Ceci gère la section description de la HomePage */
-p {
+.hero-description {
   background-color: white;
   display: flex;
   align-items: center;
@@ -11,12 +11,8 @@ p {
   font-weight: bold;
   font-size: large;
 }
-/* Ceci gère toutes les ul de la HomePage */
-ul {
-  padding: 0rem;
-}
-/* Ceci gère toutes les li de la HomePage */
-li {
+/* Ceci gère la section Sauce Tomate de la HomePage */
+.hero-saucetomate {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -25,29 +21,42 @@ li {
   list-style: none;
   border: solid;
   font-weight: bold;
-}
-/* Ceci gère la section Sauce Tomate de la HomePage */
-.hero-saucetomate {
   background-color: red;
 }
 /* Ceci gère la section Crème fraîche de la HomePage */
 .hero-cremefraiche {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  list-style: none;
+  border: solid;
+  font-weight: bold;
   background-color: white;
 }
 /* Ceci gère les sections Viande/Poisson/Végetarien de la HomePage */
 .hero-categorie {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  list-style: none;
+  border: solid;
+  font-weight: bold;
   background-color: white;
 }
 /* Ceci gère les sections Pizzas de la HomePage */
 .hero-pizzas {
-  background-color: white;
-  border: none;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0rem;
-  padding: 0rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border-radius: 10px;
+  list-style: none;
+  border: none;
+  font-weight: bold;
+  background-color: white;
 }
