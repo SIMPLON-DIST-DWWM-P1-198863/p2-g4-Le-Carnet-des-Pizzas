@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import '../CSS-Alitra/Fiche.css'
+import '../css/Fiche.css'
 
 export default function Fiche () {
     return <>
