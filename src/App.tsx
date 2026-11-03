@@ -9,12 +9,12 @@ function App() {
   return (
     <>
       <Header />
-      <footer />
       <Routes>
         <Route></Route>
         <Route path="/" element={<HomePage/>}></Route>
         <Route path='/Fiche' element={<Fiche />}></Route>
       </Routes>
+      <footer />
     </>
   )
 }
