@@ -1,11 +1,10 @@
-import './App.css';
 import './reset.css'
-import HomePage from './Components-Alitra/HomePage';
+import HomePage from './Components/HomePage';
 
 function App() {
   return (
     <>
-    <HomePage />
+        <HomePage />
     </>
   )
 };

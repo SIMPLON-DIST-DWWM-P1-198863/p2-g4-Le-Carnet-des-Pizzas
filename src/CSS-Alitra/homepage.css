@@ -2,19 +2,20 @@ body {
     background-color: green;
 }
 /* Ceci gère la section description de la HomePage */
-.hero-description {
+p {
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
     font-weight: bold;
+    font-size: large;
 }
-
+/* Ceci gère toutes les ul de la HomePage */
 ul {
     padding: 0rem;
 }
-
+/* Ceci gère toutes les li de la HomePage */
 li {
     display: flex;
     flex-direction: column;
@@ -50,6 +51,7 @@ li {
     padding-bottom: 1rem;
 }
 
+/* Ceci gère la responsivité pour la version Desktop */
 @media screen and (min-width : 48rem) {
     /* Ceci gère les sections Pizzas de la HomePage */
     .hero-pizzas {
