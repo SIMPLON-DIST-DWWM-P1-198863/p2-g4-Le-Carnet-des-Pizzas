@@ -1,0 +1,15 @@
+/* Ceci gère le Hover le le vignette de Pizza */
+figure:hover {
+    opacity: 50%;
+}
+/* Ceci gère le Link associer à chaque vignette de Pizza */
+.pizzas-link {
+    color: black;
+    text-decoration: none;
+}
+/* Ceci gère le nom des Pizzas dans la HomePage */
+figcaption {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
