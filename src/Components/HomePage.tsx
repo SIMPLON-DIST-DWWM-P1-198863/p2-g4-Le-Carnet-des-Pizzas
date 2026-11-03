@@ -1,5 +1,5 @@
-import '../CSS-Alitra/homepage.css';
-import PizzaGrid from './Pizzas';
+import '../css/homepage.css';
+import PizzaGrid from './Pizzas.tsx';
 
 export default function HomePage () {
 

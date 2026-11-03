@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import '../CSS-Alitra/Pizzas.css'
+import '../css/Pizzas.css'
 
 export function PizzaGrid () {
     return (
