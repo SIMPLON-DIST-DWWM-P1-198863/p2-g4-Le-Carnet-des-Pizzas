@@ -1,4 +1,4 @@
-import '../css/homepage.css';
+import '../css/HomePage.css';
 import PizzaGrid from './PizzaGrid.tsx';
 
 export default function HomePage () {

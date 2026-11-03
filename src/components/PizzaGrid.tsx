@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import '../css/Pizzas.css'
+import '../css/PizzaGrid.css'
 
 export default function PizzaGrid () {
     return (
