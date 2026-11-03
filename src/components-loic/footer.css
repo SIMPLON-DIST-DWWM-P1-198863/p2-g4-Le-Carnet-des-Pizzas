@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  background-color: #cd212a;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: Montserrat, sans-serif;
+}
