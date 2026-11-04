@@ -1,0 +1,21 @@
+.titre {
+  background-color: var(--fourth-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.classement {
+  background-color: var(--fourth-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1vh;
+}
+
+.ma-bande {
+  width: 80%; /* Prend toute la largeur de la page */
+  height: 10px; /* Épaisseur de la bande */
+  background-color: var(--secondary-color); /* Couleur de la bande */
+}
