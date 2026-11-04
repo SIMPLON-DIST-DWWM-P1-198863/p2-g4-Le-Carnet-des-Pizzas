@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router'
 import './reset.css'
 import './App.css'
 import Header from './components/header.tsx'
-import { Footer } from './components/footer.tsx'
 import HomePage from './components/HomePage.tsx'
+import { Footer } from './components/footer.tsx'
 import Fiche from './components/Fiche.tsx'
 
 function App() {

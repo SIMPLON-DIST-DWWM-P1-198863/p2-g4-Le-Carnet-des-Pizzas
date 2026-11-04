@@ -1,9 +1,9 @@
 body {
-  background-color: green;
+  background-color: var(--secondary-color);
 }
 /* Ceci gère la section description de la HomePage */
 .hero-description {
-  background-color: white;
+  background-color: var(--fourth-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
   list-style: none;
   border: solid;
   font-weight: bold;
-  background-color: red;
+  background-color: var(--main-color);
 }
 /* Ceci gère la section Crème fraîche de la HomePage */
 .hero-cremefraiche {
@@ -33,7 +33,7 @@ body {
   list-style: none;
   border: solid;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--fourth-color);
 }
 /* Ceci gère les sections Viande/Poisson/Végetarien de la HomePage */
 .hero-categorie {
@@ -45,7 +45,7 @@ body {
   list-style: none;
   border: solid;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--fourth-color);
 }
 /* Ceci gère les sections Pizzas de la HomePage */
 .hero-pizzas {
@@ -58,5 +58,5 @@ body {
   list-style: none;
   border: none;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--fourth-color);
 }

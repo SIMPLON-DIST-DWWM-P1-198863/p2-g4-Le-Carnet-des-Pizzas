@@ -13,7 +13,7 @@
     flex-direction: column;
     margin: 1rem;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--fourth-color);
 }
 /* Ceci gère le nom et l'image de la Pizza */
 .fiche-texte {
