@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: var(--secondary-color);
 }
 /* Ceci gère la section description de la HomePage */
 .hero-description {
@@ -21,7 +21,7 @@ body {
   list-style: none;
   border: solid;
   font-weight: bold;
-  background-color: red;
+  background-color: var(--main-color);
 }
 /* Ceci gère la section Crème fraîche de la HomePage */
 .hero-cremefraiche {

@@ -1,21 +1,70 @@
-.titre {
+.bloc-classement {
   background-color: var(--fourth-color);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.titre {
   display: flex;
   justify-content: center;
   padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-bottom: 3vh;
+  font-size: 1rem;
 }
 
 .classement {
-  background-color: var(--fourth-color);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 1vh;
 }
 
-.ma-bande {
-  width: 80%; /* Prend toute la largeur de la page */
-  height: 10px; /* Épaisseur de la bande */
-  background-color: var(--secondary-color); /* Couleur de la bande */
+.border1 {
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 1vh;
+}
+
+.border2 {
+  background-color: var(--third-color);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 1vh;
+}
+
+.border3 {
+  background-color: var(--main-color);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 1vh;
+}
+
+.bloc-favoris {
+  background-color: var(--fourth-color);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.titre1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+  font-size: 1rem;
+}
+
+.favoris {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
 }
