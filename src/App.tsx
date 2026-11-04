@@ -1,13 +1,21 @@
-import HomePage from "./components/HomePage";
-import { Footer } from "./components-loic/footer";
+import { Routes, Route } from 'react-router'
+import './reset.css'
+import Header from './components/header.tsx'
+import { Footer } from './components/footer.tsx'
+import HomePage from './components/HomePage.tsx'
+import Fiche from './components/Fiche.tsx'
 
 function App() {
   return (
     <>
-      <HomePage />
-      <Footer />
+      <Header />
+      <Routes>
+        <Route></Route>
+        <Route path="/" element={<HomePage/>}></Route>
+        <Route path='/Fiche' element={<Fiche />}></Route>
+      </Routes>
+      <footer />
     </>
-  );
+  )
 }
-
-export default App;
+export default App
