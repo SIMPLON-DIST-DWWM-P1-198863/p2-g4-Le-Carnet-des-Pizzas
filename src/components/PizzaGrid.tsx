@@ -44,7 +44,46 @@ export default function PizzaGrid () {
                     </figcaption>
                 </figure>
             </Link>
+            <Link to ="/Fiche" className='pizzas-link'>
+                <figure>
+                    <img src="../public/pizza-random.png" alt="" />
+                    <figcaption>
+                        Pizza 6
+                    </figcaption>
+                </figure>
+            </Link>
+            <Link to ="/Fiche" className='pizzas-link'>
+                <figure>
+                    <img src="../public/pizza-random.png" alt="" />
+                    <figcaption>
+                        Pizza 7
+                    </figcaption>
+                </figure>
+            </Link>
+            <Link to ="/Fiche" className='pizzas-link'>
+                <figure>
+                    <img src="../public/pizza-random.png" alt="" />
+                    <figcaption>
+                        Pizza 8
+                    </figcaption>
+                </figure>
+            </Link>
+            <Link to ="/Fiche" className='pizzas-link'>
+                <figure>
+                    <img src="../public/pizza-random.png" alt="" />
+                    <figcaption>
+                        Pizza 9
+                    </figcaption>
+                </figure>
+            </Link>
+            <Link to ="/Fiche" className='pizzas-link'>
+                <figure>
+                    <img src="../public/pizza-random.png" alt="" />
+                    <figcaption>
+                        Pizza 10
+                    </figcaption>
+                </figure>
+            </Link>
         </>
-
     )
 };

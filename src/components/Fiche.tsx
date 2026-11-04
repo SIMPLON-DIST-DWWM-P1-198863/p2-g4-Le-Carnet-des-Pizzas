@@ -4,8 +4,8 @@ import '../css/Fiche.css'
 export default function Fiche () {
     return <>
         <Link to = "/" className="fiche-link">HomePage</Link>
-        <ul>
-            <li className="fiche-informations">
+        <ul className="fiche-informations">
+            <li>
                 <li className="fiche-texte">
                     <img src="../public/pizza-random.png" alt="" />
                     <h1 className="fiche-nom">Nom de la Pizza</h1>
