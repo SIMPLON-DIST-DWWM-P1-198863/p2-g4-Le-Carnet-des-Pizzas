@@ -1,33 +1,33 @@
 /* Ceci gère le bouton provisoire de retour à la HomePgae */
 .fiche-link {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-    text-decoration: none;
-    color: black;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
 }
 /* Ceci gère la section informations de la Pizza */
 .fiche-informations {
-    background-color: var(--fourth-color);
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    border-radius: 10px;
+  background-color: var(--fourth-color);
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 10px;
 }
 /* Ceci gère le nom et l'image de la Pizza */
 .fiche-texte {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
 }
 /* Ceci gère le nom de la Pizza */
 .fiche-nom {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    font-size: large;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: large;
+  font-weight: bold;
 }
 /* Ceci gère la description de la Pizza */
 .fiche-description {
-    padding: 1rem;
+  padding: 1rem;
 }
