@@ -12,5 +12,5 @@ export default function PizzAPI() {
     }
     fetchData();
   }, []);
-  return <p>{data.length}</p>;
+  return <>{data.length}</>;
 }
