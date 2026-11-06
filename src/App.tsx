@@ -5,6 +5,8 @@ import Header from "./components/header.tsx";
 import HomePage from "./components/HomePage.tsx";
 import { Footer } from "./components/footer.tsx";
 import Fiche from "./components/Fiche.tsx";
+import Preferences from "./components/Preferences.tsx";
+import Favoris from "./components/Favoris.tsx";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route></Route>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/Fiche" element={<Fiche />}></Route>
+        <Route path="/Preferences" element={<Preferences />}></Route>
+        <Route path="/Favoris" element={<Favoris />}></Route>
       </Routes>
       <Footer />
     </>
