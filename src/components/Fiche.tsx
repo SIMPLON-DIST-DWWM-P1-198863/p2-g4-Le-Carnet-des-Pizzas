@@ -7,6 +7,7 @@ export default function Fiche () {
         <ul>
             <li className="fiche-informations">
                 <li className="fiche-texte">
+                    <p className="etoile-fav">☆</p>
                     <img src="../public/pizza-random.png" alt="" />
                     <h1 className="fiche-nom">Nom de la Pizza</h1>
                 </li>
