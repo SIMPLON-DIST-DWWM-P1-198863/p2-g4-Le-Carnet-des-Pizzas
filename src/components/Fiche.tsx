@@ -1,12 +1,8 @@
-import { Link } from "react-router";
 import "../css/Fiche.css";
 
 export default function Fiche() {
   return (
     <>
-      <Link to="/" className="fiche-link">
-        HomePage
-      </Link>
       <ul className="fiche-informations">
         <li>
           <li className="fiche-texte">
