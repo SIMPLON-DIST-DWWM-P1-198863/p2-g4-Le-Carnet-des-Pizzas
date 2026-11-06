@@ -6,11 +6,10 @@ function Header() {
     <header>
       <Link to="/">
         <img src="../public/logo.png" alt="logo" className="logo" />
-      </Link>
-      <h1>Le carnet des pizzas</h1>
-      <Link to="/Preferences" className="lienfavoris">
-        ♥
-      </Link>
+        <h1>Le carnet des pizzas</h1>
+        <a href="/favoris" className="lienfavoris">
+        🤍
+        </a>
     </header>
   );
 }
