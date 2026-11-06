@@ -5,7 +5,6 @@ import Favoris from "./Favoris.tsx";
 export default function Preferences() {
   return (
     <>
-      {/* SECTION 1 */}
       <div className="bloc-classement">
         <p className="titre">Classement</p>
         <ol>
@@ -32,18 +31,20 @@ export default function Preferences() {
               <div className="border3"></div>
             </li>
           </div>
-          <li>
-            <Link to="/Fiche" className="classement">
-              <img src="../public/pizza-random.png" alt="pizza" />
-              Pizza #4
-            </Link>
-          </li>
-          <li>
-            <Link to="/Fiche" className="classement">
-              <img src="../public/pizza-random.png" alt="pizza" />
-              Pizza #5
-            </Link>
-          </li>
+          <div className="bloc-45">
+            <li>
+              <Link to="/Fiche" className="classement">
+                <img src="../public/pizza-random.png" alt="pizza" />
+                Pizza #4
+              </Link>
+            </li>
+            <li>
+              <Link to="/Fiche" className="classement">
+                <img src="../public/pizza-random.png" alt="pizza" />
+                Pizza #5
+              </Link>
+            </li>
+          </div>
         </ol>
       </div>
 

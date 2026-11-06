@@ -2,13 +2,13 @@
   background-color: var(--third-color);
   margin: 1rem;
   border-radius: 1rem;
+  padding: 1rem;
 }
 
 .titre {
   display: flex;
-  justify-content: center;
-  padding-top: 1vh;
-  padding-bottom: 3vh;
+  justify-content: flex-start;
+  padding: 1rem;
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
@@ -16,9 +16,10 @@
 
 .classement {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1vh;
+  padding: 1rem;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -32,8 +33,8 @@
   background-color: var(--secondary-color);
   border-radius: 1rem;
   padding: 0.4rem;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
   margin-bottom: 1vh;
 }
 
@@ -41,8 +42,8 @@
   background-color: var(--fourth-color);
   border-radius: 1rem;
   padding: 0.4rem;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
   margin-bottom: 1vh;
 }
 
@@ -50,17 +51,30 @@
   background-color: var(--main-color);
   border-radius: 1rem;
   padding: 0.4rem;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
   margin-bottom: 1vh;
 }
 
 /* DESKTOP VERSION */
 @media screen and (min-width: 64rem) {
+  .titre {
+    font-size: 2rem;
+  }
+
   .podium {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: flex-end;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .bloc-45 {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
   }
 
   .border1 {
