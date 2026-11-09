@@ -3,7 +3,7 @@ figure:hover {
   opacity: 50%;
 }
 /* Ceci gère le Link associer à chaque vignette de Pizza */
-.pizzas-link {
+.pizzagrid-link {
   color: black;
   text-decoration: none;
   padding: 0.33rem;

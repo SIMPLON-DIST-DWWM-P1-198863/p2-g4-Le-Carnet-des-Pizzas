@@ -12,7 +12,7 @@ interface pizza {
 }
 
 export default function PizzAPI() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<pizza[]>([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -25,7 +25,6 @@ export default function PizzAPI() {
   }, []);
   return (
     <>
-      {data.length}
       {data.map((pizza) => (
         <div key={pizza.id}>
           <img src={pizza.img} alt={pizza.name} />
