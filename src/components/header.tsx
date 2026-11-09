@@ -1,15 +1,16 @@
-import '../css/header.css'
+import "../css/header.css";
+import { Link } from "react-router";
 
-function Header() {
+function header() {
   return (
     <header>
-        <img src="../public/logo.png" alt="logo" className="logo" />
-        <h1>Le carnet des pizzas</h1>
-        <a href="/favoris" className="lienfavoris">
+      <img src="../public/logo.png" alt="logo" className="logo" />
+      <h1>Le carnet des pizzas</h1>
+      <Link to="/favoris" className="lienfavoris">
         🤍
-        </a>
+      </Link>
     </header>
-  )
+  );
 }
 
-export default Header
+export default header;
