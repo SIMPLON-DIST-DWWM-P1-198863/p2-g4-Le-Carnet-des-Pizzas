@@ -1,5 +1,4 @@
-import { Link } from "react-router"
-import '../css/Fiche.css'
+import "../css/Fiche.css";
 
 export default function Fiche () {
     return <>
@@ -14,5 +13,20 @@ export default function Fiche () {
                 <p className="fiche-description">Ceci est le texte qui servira de description pour le Pizza</p>
             </li>
         </ul>
+export default function Fiche() {
+  return (
+    <>
+      <ul className="fiche-informations">
+        <li>
+          <li className="fiche-texte">
+            <img src="../public/pizza-random.png" alt="" />
+            <h1 className="fiche-nom">Nom de la Pizza</h1>
+          </li>
+          <p className="fiche-description">
+            Ceci est le texte qui servira de description pour le Pizza
+          </p>
+        </li>
+      </ul>
     </>
+  );
 }
