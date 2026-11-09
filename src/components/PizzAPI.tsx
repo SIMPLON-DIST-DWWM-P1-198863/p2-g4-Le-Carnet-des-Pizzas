@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { useState, useEffect } from "react";
 
 interface pizza {
@@ -26,10 +27,12 @@ export default function PizzAPI() {
   return (
     <>
       {data.map((pizza) => (
-        <div key={pizza.id}>
-          <img src={pizza.img} alt={pizza.name} />
-          <p>{pizza.name}</p>
-        </div>
+        <Link to="/Fiche" className="pizzapi-link">
+          <div key={pizza.id}>
+            <img src="../public/pizza-random.png" alt={pizza.name} />
+            <p className="pizzapi-titre">{pizza.name}</p>
+          </div>
+        </Link>
       ))}
     </>
   );
