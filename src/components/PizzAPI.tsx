@@ -1,5 +1,16 @@
 import { useState, useEffect } from "react";
 
+interface pizza {
+  id: number;
+  name: string;
+  img: string;
+  price: number;
+  description: string;
+  list_of_ingredients: [string];
+  spicy: boolean;
+  size: string;
+}
+
 export default function PizzAPI() {
   const [data, setData] = useState([]);
 
@@ -12,5 +23,15 @@ export default function PizzAPI() {
     }
     fetchData();
   }, []);
-  return <>{data.length}</>;
+  return (
+    <>
+      {data.length}
+      {data.map((pizza) => (
+        <div key={pizza.id}>
+          <img src={pizza.img} alt={pizza.name} />
+          <p>{pizza.name}</p>
+        </div>
+      ))}
+    </>
+  );
 }

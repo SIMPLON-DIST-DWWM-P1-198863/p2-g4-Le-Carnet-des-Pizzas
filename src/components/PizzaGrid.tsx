@@ -1,10 +1,11 @@
 import { Link } from "react-router";
+import PizzAPI from "./PizzAPI";
 import "../css/PizzaGrid.css";
 
 export default function PizzaGrid() {
   return (
     <>
-      <Link to="/Fiche" className="pizzas-link">
+      {/* <Link to="/Fiche" className="pizzas-link">
         <figure>
           <img src="../public/pizza-random.png" alt="" />
           <figcaption>Pizza 1</figcaption>
@@ -62,6 +63,12 @@ export default function PizzaGrid() {
         <figure>
           <img src="../public/pizza-random.png" alt="" />
           <figcaption>Pizza 10</figcaption>
+        </figure>
+      </Link> */}
+      <Link to="/Fiche">
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
         </figure>
       </Link>
     </>
