@@ -1,4 +1,4 @@
-import PizzaGrid from "./PizzaGrid.tsx";
+import PizzAPI from "./PizzAPI.tsx";
 import "../css/HomePage.css";
 
 export default function HomePage() {
@@ -16,7 +16,7 @@ export default function HomePage() {
               Viande
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
@@ -24,7 +24,7 @@ export default function HomePage() {
               Poisson
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
@@ -32,7 +32,7 @@ export default function HomePage() {
               Végétarien
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
@@ -45,7 +45,7 @@ export default function HomePage() {
               Viande
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
@@ -53,7 +53,7 @@ export default function HomePage() {
               Poisson
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
@@ -61,7 +61,7 @@ export default function HomePage() {
               Végétarien
               <ul>
                 <li className="hero-pizzas">
-                  <PizzaGrid />
+                  <PizzAPI />
                 </li>
               </ul>
             </li>
