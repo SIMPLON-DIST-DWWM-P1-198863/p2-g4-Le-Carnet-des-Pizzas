@@ -13,7 +13,11 @@ interface pizza {
   size: string;
 }
 
-export default function PizzAPI() {
+interface PizzAPIProps {
+  categorie: string;
+}
+
+export default function PizzAPI({ categorie }: PizzAPIProps) {
   const [data, setData] = useState<pizza[]>([]);
 
   useEffect(() => {
@@ -25,9 +29,53 @@ export default function PizzAPI() {
     }
     fetchData();
   }, []);
+
+  const filtrapizza = data.filter((pizza) => {
+    const ingredients = pizza.list_of_ingredients;
+    const saucetomate =
+      ingredients.includes("tomato sauce") ||
+      ingredients.includes("marinara") ||
+      ingredients.includes("san marzano");
+    const viande =
+      ingredients.includes("chicken") ||
+      ingredients.includes("pepperoni") ||
+      ingredients.includes("bacon") ||
+      ingredients.includes("ham") ||
+      ingredients.includes("sausage") ||
+      ingredients.includes("pork") ||
+      ingredients.includes("beef") ||
+      ingredients.includes("steak") ||
+      ingredients.includes("prosciutto") ||
+      ingredients.includes("meatball") ||
+      ingredients.includes("salami");
+    const poisson =
+      ingredients.includes("shrimp") ||
+      ingredients.includes("tuna") ||
+      ingredients.includes("salmon");
+
+    if (categorie == "tomate-viande") {
+      return saucetomate && viande;
+    }
+    if (categorie == "tomate-poisson") {
+      return saucetomate && poisson;
+    }
+    if (categorie == "tomate-vegetarien") {
+      return saucetomate && !viande && !poisson;
+    }
+    if (categorie == "autre-viande") {
+      return !saucetomate && viande;
+    }
+    if (categorie == "autre-poisson") {
+      return !saucetomate && poisson;
+    }
+    if (categorie == "autre-vegetarien") {
+      return !saucetomate && !viande && !poisson;
+    }
+  });
+
   return (
     <>
-      {data.map((pizza) => (
+      {filtrapizza.map((pizza) => (
         <div key={pizza.id}>
           <Link to="/Fiche" className="pizzapi-link">
             <img src="../public/pizza-random.png" alt={pizza.name} />

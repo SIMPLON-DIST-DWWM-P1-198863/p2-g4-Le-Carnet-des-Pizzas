@@ -16,7 +16,7 @@ export default function HomePage() {
               Viande
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="tomate-viande" />
                 </li>
               </ul>
             </li>
@@ -24,7 +24,7 @@ export default function HomePage() {
               Poisson
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="tomato-poisson" />
                 </li>
               </ul>
             </li>
@@ -32,7 +32,7 @@ export default function HomePage() {
               Végétarien
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="tomato-vegetarien" />
                 </li>
               </ul>
             </li>
@@ -45,7 +45,7 @@ export default function HomePage() {
               Viande
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="autre-viande" />
                 </li>
               </ul>
             </li>
@@ -53,7 +53,7 @@ export default function HomePage() {
               Poisson
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="autre-poisson" />
                 </li>
               </ul>
             </li>
@@ -61,7 +61,7 @@ export default function HomePage() {
               Végétarien
               <ul>
                 <li className="hero-pizzas">
-                  <PizzAPI />
+                  <PizzAPI categorie="autre-vegetarien" />
                 </li>
               </ul>
             </li>
