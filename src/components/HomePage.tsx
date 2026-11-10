@@ -27,7 +27,7 @@ export default function HomePage() {
               <ul>
                 <li className="hero-pizzas">
                   <div>
-                    <PizzAPI categorie="tomato-poisson" />
+                    <PizzAPI categorie="tomate-poisson" />
                   </div>
                 </li>
               </ul>
@@ -37,7 +37,7 @@ export default function HomePage() {
               <ul>
                 <li className="hero-pizzas">
                   <div>
-                    <PizzAPI categorie="tomato-vegetarien" />
+                    <PizzAPI categorie="tomate-vegetarien" />
                   </div>
                 </li>
               </ul>
