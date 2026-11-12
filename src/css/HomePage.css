@@ -22,7 +22,7 @@ body {
   font-weight: bold;
 }
 /* Ceci gère la section Crème fraîche de la HomePage */
-.hero-cremefraiche {
+.hero-autressauces {
   background-color: var(--beige-pate);
   display: flex;
   flex-direction: column;

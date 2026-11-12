@@ -47,8 +47,7 @@ export default function PizzAPI({ categorie }: PizzAPIProps) {
       ingredients.includes("steak") ||
       ingredients.includes("prosciutto") ||
       ingredients.includes("meatball") ||
-      ingredients.includes("salami");
-    const poisson =
+      ingredients.includes("salami") ||
       ingredients.includes("shrimp") ||
       ingredients.includes("tuna") ||
       ingredients.includes("salmon");
@@ -56,20 +55,14 @@ export default function PizzAPI({ categorie }: PizzAPIProps) {
     if (categorie == "tomate-viande") {
       return saucetomate && viande;
     }
-    if (categorie == "tomate-poisson") {
-      return saucetomate && poisson;
-    }
     if (categorie == "tomate-vegetarien") {
-      return saucetomate && !viande && !poisson;
+      return saucetomate && !viande;
     }
     if (categorie == "autre-viande") {
       return !saucetomate && viande;
     }
-    if (categorie == "autre-poisson") {
-      return !saucetomate && poisson;
-    }
     if (categorie == "autre-vegetarien") {
-      return !saucetomate && !viande && !poisson;
+      return !saucetomate && !viande;
     }
   });
 
