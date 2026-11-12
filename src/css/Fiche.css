@@ -22,5 +22,15 @@
 }
 /* Ceci gère la description de la Pizza */
 .fiche-description {
-  padding: 1rem;
+    padding: 1rem;
+}
+
+/* Ceci gère l'étoile pour ajouter aux favoris */
+.etoile-fav {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform O.2s ease;
 }

@@ -3,15 +3,13 @@ import { Link } from "react-router";
 
 function Header() {
   return (
-    <header>
-      <Link to="/">
-        <img src="../public/logo.png" alt="logo" className="logo" />
-      </Link>
+    <Header>
+      <img src="../public/logo.png" alt="logo" className="logo" />
       <h1>Le carnet des pizzas</h1>
-      <Link to="/Preferences" className="lienfavoris">
-        ♥
+      <Link to="/favoris" className="lienfavoris">
+        🤍
       </Link>
-    </header>
+    </Header>
   );
 }
 
