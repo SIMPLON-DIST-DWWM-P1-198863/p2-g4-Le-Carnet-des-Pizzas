@@ -4,9 +4,10 @@ body {
 /* Ceci gère la section description de la HomePage */
 .hero-description {
   color: var(--rouge-terracota);
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: solid;
+  border-radius: 2rem;
   font-size: large;
 }
 /* Ceci gère la section Sauce Tomate de la HomePage */
@@ -21,7 +22,7 @@ body {
   border: solid;
   font-weight: bold;
 }
-/* Ceci gère la section Crème fraîche de la HomePage */
+/* Ceci gère la section Autres Sauces de la HomePage */
 .hero-autressauces {
   background-color: var(--beige-pate);
   display: flex;

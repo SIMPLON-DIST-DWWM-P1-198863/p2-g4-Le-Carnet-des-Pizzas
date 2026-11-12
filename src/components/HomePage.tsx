@@ -35,7 +35,7 @@ export default function HomePage() {
           </ul>
         </li>
         <li className="hero-autressauces">
-          Autre Sauces
+          Autres Sauces
           <ul>
             <li className="hero-categorie">
               Viande
