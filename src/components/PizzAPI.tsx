@@ -8,7 +8,7 @@ interface pizza {
   img: string;
   price: number;
   description: string;
-  list_of_ingredients: [string];
+  list_of_ingredients: string;
   spicy: boolean;
   size: string;
 }
@@ -31,7 +31,7 @@ export default function PizzAPI({ categorie }: PizzAPIProps) {
   }, []);
 
   const filtrapizza = data.filter((pizza) => {
-    const ingredients = pizza.list_of_ingredients;
+    const ingredients = pizza.list_of_ingredients.toLowerCase();
     const saucetomate =
       ingredients.includes("tomato sauce") ||
       ingredients.includes("marinara") ||
