@@ -1,10 +1,9 @@
 body {
-  background-color: var(--secondary-color);
+  background-color: var(--blanc-creme);
 }
 /* Ceci gère la section description de la HomePage */
 .hero-description {
-  background-color: var(--fourth-color);
-  color: var(--secondary-color);
+  color: var(--rouge-terracota);
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -12,7 +11,7 @@ body {
 }
 /* Ceci gère la section Sauce Tomate de la HomePage */
 .hero-saucetomate {
-  background-color: var(--main-color);
+  background-color: var(--rouge-terracota);
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -24,7 +23,7 @@ body {
 }
 /* Ceci gère la section Crème fraîche de la HomePage */
 .hero-cremefraiche {
-  background-color: var(--fourth-color);
+  background-color: var(--beige-pate);
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -36,7 +35,7 @@ body {
 }
 /* Ceci gère les sections Viande/Poisson/Végetarien de la HomePage */
 .hero-categorie {
-  background-color: var(--fourth-color);
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin: 1rem;

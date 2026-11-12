@@ -1,9 +1,10 @@
 /* Ceci gère la section informations de la Pizza */
 .fiche-informations {
-  background-color: var(--fourth-color);
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  border: solid;
   border-radius: 2rem;
 }
 /* Ceci gère le nom et l'image de la Pizza */
