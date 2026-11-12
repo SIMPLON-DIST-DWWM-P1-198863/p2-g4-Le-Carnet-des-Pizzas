@@ -1,4 +1,4 @@
-import PizzaGrid from "./PizzaGrid.tsx";
+import PizzAPI from "./PizzAPI.tsx";
 import "../css/HomePage.css";
 
 export default function HomePage() {
@@ -6,7 +6,7 @@ export default function HomePage() {
     <div>
       <p className="hero-description">
         Bienvenue dans Le Carnet des Pizzas le temple ultime de la pizza et de
-        tout son univers
+        tout son univers !
       </p>
       <ul>
         <li className="hero-saucetomate">
@@ -15,53 +15,45 @@ export default function HomePage() {
             <li className="hero-categorie">
               Viande
               <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
-                </li>
-              </ul>
-            </li>
-            <li className="hero-categorie">
-              Poisson
-              <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
+                <li>
+                  <div className="hero-pizzas">
+                    <PizzAPI categorie="tomate-viande" />
+                  </div>
                 </li>
               </ul>
             </li>
             <li className="hero-categorie">
               Végétarien
               <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
+                <li>
+                  <div className="hero-pizzas">
+                    <PizzAPI categorie="tomate-vegetarien" />
+                  </div>
                 </li>
               </ul>
             </li>
           </ul>
         </li>
-        <li className="hero-cremefraiche">
-          Crème Fraîche
+        <li className="hero-autressauces">
+          Autres Sauces
           <ul>
             <li className="hero-categorie">
               Viande
               <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
-                </li>
-              </ul>
-            </li>
-            <li className="hero-categorie">
-              Poisson
-              <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
+                <li>
+                  <div className="hero-pizzas">
+                    <PizzAPI categorie="autre-viande" />
+                  </div>
                 </li>
               </ul>
             </li>
             <li className="hero-categorie">
               Végétarien
               <ul>
-                <li className="hero-pizzas">
-                  <PizzaGrid />
+                <li>
+                  <div className="hero-pizzas">
+                    <PizzAPI categorie="autre-vegetarien" />
+                  </div>
                 </li>
               </ul>
             </li>

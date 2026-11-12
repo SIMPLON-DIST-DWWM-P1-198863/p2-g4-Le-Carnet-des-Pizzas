@@ -1,17 +1,23 @@
 /* Ceci gère le Hover le le vignette de Pizza */
-figure:hover {
+link:hover {
   opacity: 50%;
 }
 /* Ceci gère le Link associer à chaque vignette de Pizza */
-.pizzas-link {
+.pizzapi-link {
+  display: flex;
+  flex-direction: column;
   color: black;
   text-decoration: none;
-  padding: 0.33rem;
+  width: 25vw;
+}
+/* Ceci gère les images des Pizzas de la HomePage */
+.pizzapi-image {
+  border-radius: 1rem;
 }
 /* Ceci gère le nom des Pizzas dans la HomePage */
-figcaption {
+.pizzapi-titre {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  font-size: small;
 }

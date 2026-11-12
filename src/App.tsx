@@ -3,7 +3,7 @@ import "./reset.css";
 import "./App.css";
 import Header from "./components/Header.tsx";
 import HomePage from "./components/HomePage.tsx";
-import { Footer } from "./components/footer.tsx";
+import { Footer } from "./components/Footer.tsx";
 import Fiche from "./components/Fiche.tsx";
 import Preferences from "./components/Preferences.tsx";
 import Favoris from "./components/Favoris.tsx";
@@ -13,9 +13,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route></Route>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/Fiche" element={<Fiche />}></Route>
+        <Route path="/Fiche/:id" element={<Fiche />}></Route>
         <Route path="/Preferences" element={<Preferences />}></Route>
         <Route path="/Favoris" element={<Favoris />}></Route>
       </Routes>

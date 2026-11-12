@@ -1,7 +1,8 @@
 :root {
-  --main-color: #cd212a;
-  --secondary-color: #008c45;
-  --third-color: #f0b37c;
-  --fourth-color: #ffffff;
+  --rouge-terracota: #b95f4d;
+  --vert-basilic: #2e7d32;
+  --beige-pate: #f1d6b5;
+  --blanc-creme: #fbf7ef;
+  --dore-parmesan: #d99a59;
   font-family: Montserrat, sans-serif;
 }
