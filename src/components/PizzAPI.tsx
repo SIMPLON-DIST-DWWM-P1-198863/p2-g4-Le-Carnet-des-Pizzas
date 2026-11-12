@@ -71,7 +71,7 @@ export default function PizzAPI({ categorie }: PizzAPIProps) {
       {filtrapizza.map((pizza) => (
         <div key={pizza.id}>
           <Link to="/Fiche" className="pizzapi-link">
-            <img src="../public/pizza-random.png" alt={pizza.name} />
+            <img src={pizza.img} alt={pizza.name} />
             <p className="pizzapi-titre">{pizza.name}</p>
           </Link>
         </div>
