@@ -13,7 +13,6 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route></Route>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/Fiche" element={<Fiche />}></Route>
         <Route path="/Preferences" element={<Preferences />}></Route>

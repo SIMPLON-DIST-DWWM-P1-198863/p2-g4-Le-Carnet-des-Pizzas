@@ -6,7 +6,7 @@ export default function HomePage() {
     <div>
       <p className="hero-description">
         Bienvenue dans Le Carnet des Pizzas le temple ultime de la pizza et de
-        tout son univers
+        tout son univers !
       </p>
       <ul>
         <li className="hero-saucetomate">

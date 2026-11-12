@@ -12,6 +12,8 @@ link:hover {
 }
 /* Ceci gère le nom des Pizzas dans la HomePage */
 .pizzapi-titre {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: small;
 }
