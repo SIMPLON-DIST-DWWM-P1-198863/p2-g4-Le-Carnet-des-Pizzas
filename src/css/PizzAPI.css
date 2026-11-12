@@ -10,6 +10,10 @@ link:hover {
   text-decoration: none;
   width: 25vw;
 }
+/* Ceci gère les images des Pizzas de la HomePage */
+.pizzapi-image {
+  border-radius: 1rem;
+}
 /* Ceci gère le nom des Pizzas dans la HomePage */
 .pizzapi-titre {
   display: flex;

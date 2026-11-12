@@ -34,7 +34,7 @@ export default function Fiche() {
       <ul>
         <li className="fiche-informations">
           <div className="fiche-texte">
-            <img src={image} alt="" className="fiche-image" />
+            <img src={image} alt={nom} className="fiche-image" />
             <h1 className="fiche-nom">{nom}</h1>
             <p className="etoile-fav">☆</p>
           </div>
