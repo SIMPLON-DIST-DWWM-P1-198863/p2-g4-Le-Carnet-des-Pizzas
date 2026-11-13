@@ -60,10 +60,10 @@ export default function () {
               <figcaption>{data[5]?.name}</figcaption>
             </figure>
           </Link>
-          <Link to={`/Fiche/${data[6]?.id}`} className="nom-pizza">
+          <Link to={`/Fiche/${data[32]?.id}`} className="nom-pizza">
             <figure>
-              <img src={data[6]?.img} alt="pizza" className="image-pizza" />
-              <figcaption>{data[6]?.name}</figcaption>
+              <img src={data[32]?.img} alt="pizza" className="image-pizza" />
+              <figcaption>{data[32]?.name}</figcaption>
             </figure>
           </Link>
           <Link to={`/Fiche/${data[47]?.id}`} className="nom-pizza">
@@ -90,10 +90,10 @@ export default function () {
               <figcaption>{data[10]?.name}</figcaption>
             </figure>
           </Link>
-          <Link to={`/Fiche/${data[5]?.id}`} className="nom-pizza">
+          <Link to={`/Fiche/${data[31]?.id}`} className="nom-pizza">
             <figure>
-              <img src={data[5]?.img} alt="pizza" className="image-pizza" />
-              <figcaption>{data[5]?.name}</figcaption>
+              <img src={data[31]?.img} alt="pizza" className="image-pizza" />
+              <figcaption>{data[31]?.name}</figcaption>
             </figure>
           </Link>
           <Link to={`/Fiche/${data[14]?.id}`} className="nom-pizza">

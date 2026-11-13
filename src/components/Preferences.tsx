@@ -25,7 +25,7 @@ export default function Preferences() {
     }
     fetchData();
   }, []);
-  console.log(data);
+
   return (
     <>
       <div className="bloc-classement">
