@@ -1,8 +1,9 @@
 .bloc-favoris {
-  background-color: var(--third-color);
+  background-color: var(--rouge-terracota);
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
+  border: solid;
 }
 
 .titre1 {
@@ -12,6 +13,7 @@
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .favoris {
@@ -24,6 +26,19 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+.image-pizza {
+  width: 25vw;
+  border-radius: 1rem;
+}
+
+.image-pizza:hover {
+  opacity: 50%;
 }
 
 @media screen and (min-width: 48rem) {
@@ -34,5 +49,10 @@
   .favoris {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+    justify-content: space-around;
+  }
+
+  .image-pizza {
+    width: 10vw;
   }
 }

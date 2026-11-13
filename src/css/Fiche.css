@@ -10,7 +10,7 @@
 /* Ceci gère le nom et l'image de la Pizza */
 .fiche-texte {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1rem;
 }
 /* Ceci gère le nom de la Pizza */
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   padding: 1rem;
-  font-size: large;
+  font-size: xx-large;
   font-weight: bold;
 }
 /* Ceci gère la description de la Pizza */

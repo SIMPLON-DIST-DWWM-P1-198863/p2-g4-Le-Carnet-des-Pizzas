@@ -1,8 +1,9 @@
 .bloc-classement {
-  background-color: var(--third-color);
+  background-color: var(--dore-parmesan);
   margin: 1rem;
   border-radius: 1rem;
   padding: 1rem;
+  border: solid;
 }
 
 .titre {
@@ -24,12 +25,16 @@
   font-weight: bold;
 }
 
+.classement figcaption {
+  padding-top: 1rem;
+}
+
 .classement:hover {
   opacity: 50%;
 }
 
 .border1 {
-  background-color: var(--secondary-color);
+  background-color: var(--vert-basilic);
   border-radius: 1rem;
   padding: 0.4rem;
   margin-left: 25vw;
@@ -38,7 +43,7 @@
 }
 
 .border2 {
-  background-color: var(--fourth-color);
+  background-color: var(--blanc-creme);
   border-radius: 1rem;
   padding: 0.4rem;
   margin-left: 25vw;
@@ -47,7 +52,7 @@
 }
 
 .border3 {
-  background-color: var(--main-color);
+  background-color: var(--rouge-terracota);
   border-radius: 1rem;
   padding: 0.4rem;
   margin-left: 25vw;

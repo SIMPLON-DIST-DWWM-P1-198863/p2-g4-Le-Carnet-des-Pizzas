@@ -14,6 +14,10 @@ link:hover {
 .pizzapi-image {
   border-radius: 1rem;
 }
+
+.pizzapi-image:hover {
+  opacity: 50%;
+}
 /* Ceci gère le nom des Pizzas dans la HomePage */
 .pizzapi-titre {
   display: flex;

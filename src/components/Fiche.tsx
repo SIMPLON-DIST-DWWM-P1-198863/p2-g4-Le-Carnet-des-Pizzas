@@ -45,7 +45,6 @@ export default function Fiche() {
           <h3>Liste des Ingrédients</h3>
           <p className="fiche-listedesingredients">{ingredients}</p>
         </li>
-        <li></li>
       </ul>
     </>
   );
