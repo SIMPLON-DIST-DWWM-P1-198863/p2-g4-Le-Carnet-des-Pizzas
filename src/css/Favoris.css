@@ -48,13 +48,10 @@
   .favoris {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+    justify-content: space-around;
   }
 
   .image-pizza {
     width: 10vw;
-  }
-
-  .favoris {
-    justify-content: space-around;
   }
 }
