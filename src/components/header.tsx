@@ -9,7 +9,7 @@ function Header() {
       </Link>
 
       <h1>Le carnet des pizzas</h1>
-      <Link to="/favoris" className="lienfavoris">
+      <Link to="./Preferences" className="lienfavoris">
         🤍
       </Link>
     </div>
