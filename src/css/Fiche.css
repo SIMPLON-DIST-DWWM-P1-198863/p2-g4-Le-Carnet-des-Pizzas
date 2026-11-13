@@ -1,4 +1,4 @@
-be/* Ceci gère la section informations de la Pizza */
+/* Ceci gère la section informations de la Pizza */
 .fiche-informations {
   background-color: white;
   display: flex;
@@ -18,7 +18,7 @@ be/* Ceci gère la section informations de la Pizza */
   display: flex;
   align-items: center;
   padding: 1rem;
-  font-size: large;
+  font-size: xx-large;
   font-weight: bold;
 }
 /* Ceci gère la description de la Pizza */

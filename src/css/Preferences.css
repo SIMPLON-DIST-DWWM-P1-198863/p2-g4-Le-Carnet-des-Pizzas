@@ -25,6 +25,10 @@
   font-weight: bold;
 }
 
+.classement figcaption {
+  padding-top: 1rem;
+}
+
 .classement:hover {
   opacity: 50%;
 }

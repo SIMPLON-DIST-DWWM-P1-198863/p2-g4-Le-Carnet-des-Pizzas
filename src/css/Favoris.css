@@ -13,12 +13,13 @@
   font-size: 1.5rem;
   color: white;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .favoris {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nom-pizza {
